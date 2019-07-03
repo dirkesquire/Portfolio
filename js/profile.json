@@ -27,13 +27,15 @@
 			"name": "Github",
 			"icon": "github.svg",
 			"link": "https://github.com/dirkesquire",
-			"sn":1
+			"sn":1,
+			"enabled": true
 		},
 		{
 			"name": "LinkedIn",
 			"icon": "linkedin.svg",
 			"link": "https://www.linkedin.com/in/dirkroel/",
-			"sn":2
+			"sn":2,
+			"enabled": false
 		}
 	],
 	"quotes": [
