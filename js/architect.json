@@ -24,7 +24,7 @@
                 "<p></p>",
                 "<p>What makes it legacy is when it reaches that point where people are too afraid to update the application anymore because it still 'works'.</p>",
                 "<p></p>",
-                "<h2>The services we offer are:</h2>",
+                "<h4>The services we offer are:</h4>",
                 "<ul>",
                     "<li>Analyse legacy applications / code bases</li>",
                     "<li>Diagram and document them</li>",
@@ -32,17 +32,17 @@
                 "</ul>",
                 "<p></p>",
                 "<p>Please contact us for a quote.</p>",
-                "<p>Our principles are to keep your  proprietary information in strictest confidence and will gladly sign any NDAs.</p>",
+                "<p>Our principles are to keep your  proprietary information in strictest confidence and will gladly sign any NDAs.</p>"
             ]
         },
         {
             "sn": 1,
-            "tab": "New Product Design",
+            "tab": "new_product_design",
             "title": "New Product Design",
             "text": [
                 "<p>If you are an entrepreneurs with a new software idea, you may benefit greatly from a kind ear to bounce ideas off. We offer a Skype call service where you can ring us and discuss some ideas.</p>",
                 "<p></p>",
-                "<h2>The services we offer are:</h2>",
+                "<h4>The services we offer are:</h4>",
                 "<ul>",
                     "<li>Listen to new product ideas</li>",
                     "<li>Give feedback on feasibility</li>",
@@ -64,7 +64,7 @@
                 "<p>Developers working hard, but not sure about quality or maintainability?</p>",
                 "<p></p>",
                 "<p>We will review the code base, and produce a set of diagrams and keep them up to date.</p>",
-                "<h2>These may include:</h2>",
+                "<h4>These may include:</h4>",
                 "<ul>",
                     "<li>A diagram of what is accomplished vs todo</li>",
                     "<li>A set of Diagrams of the code structure</li>",

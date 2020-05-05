@@ -166,16 +166,27 @@ function loadPages(pages) {
 	pages.sort(function(a,b){
 		return a.sn-b.sn;
 	});
+	var menu_html = '';
 	var html = '';
 	while(i < pages.length){
 		for(j = i; j < pages.length && j < i + 5; j++) {
 			var page = pages[j]
-			html += '<li class="tab col s2"><a href="#' + page.tab + '">' + page.tab + '</a></li>'
+			menu_html += '<li class="tab col s2"><a href="#' + page.tab + '">' + page.tab + '</a></li>'
+			var el = $('<div id="' + page.tab + '" class="info col m12 s12"></div>');
+
+			var innerHTML = "<h4>" + page.title + "</h4>";
+			for(var i = 0; i < page.text.length; i++) {
+				innerHTML += page.text[i] + "\n";
+			}
+
+			el.html(innerHTML);
+			el.appendTo($('div#pages'));
+			html += el.html();
 		}
 		html+='</div>';
 		i=j;
 	}
-	$('ul#tabs').html(html);
+	$('ul#tabs').html(menu_html);
 }
 
 function convertElement(element) {
@@ -203,36 +214,35 @@ function convertElement(element) {
 // 		confirmButtonColor:"#1f1f1f"
 // 	});
 
-// $.get("js/profile.json",
-// 	function(profile, status){
-// 		var pInfo = profile.personalInfo;
-// 		$('title').html(pInfo.nick+'|Portfolio');
-// 		$('#name').html(pInfo.fname+' '+pInfo.lname+'<sub>&lt'+pInfo.nick+'/&gt</sub>');
-// 		$('#image img').attr('src','img/'+pInfo.myimg);
-// 		//$('#summary p').html(profile.summary);
-// 		Typed.new('#summary p', {
-// 			strings: [profile.summary],
-// 			typeSpeed: 0,
-// 			cursorChar:"",
-// 			loop:false
-// 		});
+$.get("js/profile.json",
+	function(profile, status){
+		var pInfo = profile.personalInfo;
+		$('title').html(pInfo.nick+'|Portfolio');
+		$('#name').html(pInfo.fname+' '+pInfo.lname+'<sub>&lt'+pInfo.nick+'/&gt</sub>');
+		$('#image img').attr('src','img/'+pInfo.myimg);
+		$('#summary p').html(profile.summary);
+		// Typed.new('#summary p', {
+		// 	strings: [profile.summary],
+		// 	typeSpeed: 0,
+		// 	cursorChar:"",
+		// 	loop:false
+		// });
 
-// 		loadContact(profile.contact);
-// 		// loadHello(profile.hello);
-// 		// loadLikes(profile.likes);
-// 		// loadLinks(profile.profileLinks);
-// 		// loadSkills(profile.skills);
-// 		// loadProjects(profile.projects);
-// 		// loadWorks(profile.works);
-// 		// loadEducations(profile.education);
-// });
+		loadContact(profile.contact);
+		// loadHello(profile.hello);
+		// loadLikes(profile.likes);
+		// loadLinks(profile.profileLinks);
+		// loadSkills(profile.skills);
+		// loadProjects(profile.projects);
+		// loadWorks(profile.works);
+		// loadEducations(profile.education);
+});
 
 $.get("js/architect.json",
-	function(data, status){
-		console.log('start loading architect.json');
-		profile = data;
+	function(profile, status){
+		console.log('architect.json', profile);
 		loadPages(profile.pages);
-});
+	});
 
 function onBodyLoad(){
 
