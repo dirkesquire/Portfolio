@@ -1,0 +1,93 @@
+{
+	"summary": "Pythonista 🐍 | Coder | Traveller | Computer Enthusiast | Thai Culture | South Africa | Remote worker | Freelancer | Equal rights",
+	"hello": [
+		"<p>Hi, I’m Dirk. I am a Software Architect and Programmer. I've been writing code for 20+ years.</p>",
+		"<p>Writing good quality code is a passion. I believe in simplicity, elegance and creating software to make our lives easier, and better. </p>",
+		"<p>Currently I'm working at <a target='_blank' href='https://www.gpstrategies.com'>GP Strategies</a> as a Software Architect. The role spans multiple facets. Front and back end development, data modelling, and architecting new solutions.</p>",
+		"<br />",
+		"<b>IDEAS:</b>",
+		"<p>Constantly evolving legacy code to be leading edge so that systems never fall behind.</p>",
+		"<p>Recursion - how far does the rabbit hole go?</p>",
+		"<p>Introspection - how do we get the computer to think in terms that are meaningful to us?</p>"
+    ],
+    "pages": [
+        {
+            "sn": 0,
+            "tab": "legacy",
+            "title": "Legacy Applications/Code",
+            "text": [
+                "<p>Often a lot of hard work, and investment has gone into building legacy applications. Often we have also put in a lot of thought into them.<p>",
+                "<p>What do we mean by legacy applications? This is code has become a little dated and not quite as shiny as it once was.</p>",
+                "<p></p>",
+                "<p>Typically the core logic is still solid, but over time the UI (look and feel) tends to have become a bit lacklustre. The other thing that can happen is that the technology it runs on may now not be current.</p>",
+                "<p>It is also possible the datamodel needs updating</p>",
+                "<p></p>",
+                "<p>What makes it legacy is when it reaches that point where people are too afraid to update the application anymore because it still 'works'.</p>",
+                "<p></p>",
+                "<h2>The services we offer are:</h2>",
+                "<ul>",
+                    "<li>Analyse legacy applications / code bases</li>",
+                    "<li>Diagram and document them</li>",
+                    "<li>Architect a plan for modernising and revitalising them</li>",
+                "</ul>",
+                "<p></p>",
+                "<p>Please contact us for a quote.</p>",
+                "<p>Our principles are to keep your  proprietary information in strictest confidence and will gladly sign any NDAs.</p>",
+            ]
+        },
+        {
+            "sn": 1,
+            "tab": "New Product Design",
+            "title": "New Product Design",
+            "text": [
+                "<p>If you are an entrepreneurs with a new software idea, you may benefit greatly from a kind ear to bounce ideas off. We offer a Skype call service where you can ring us and discuss some ideas.</p>",
+                "<p></p>",
+                "<h2>The services we offer are:</h2>",
+                "<ul>",
+                    "<li>Listen to new product ideas</li>",
+                    "<li>Give feedback on feasibility</li>",
+                    "<li>Stimulate thinking with fresh ideas</li>",
+                    "<li>Diagram and produce an Architectural Design</li>",
+                    "<li>Become a Non-executive director on your board</li>",
+                "</ul>",
+                "<p></p>",
+                "<p>Please contact us for more info.</p>",
+                "<p></p>",
+                "<p><b><i>Disclaimer:</i></b> Scared of us stealing your ideas? Our reputation is important to us. We will sign a NDA, and keep the ideas in the strictest confidence. Also if there is any conflict of interest we will let you know and not take the project on.</p>"
+            ]
+        },
+        {
+            "sn": 2,
+            "tab": "current",
+            "title": "Analyse Current Code",
+            "text": [
+                "<p>Developers working hard, but not sure about quality or maintainability?</p>",
+                "<p></p>",
+                "<p>We will review the code base, and produce a set of diagrams and keep them up to date.</p>",
+                "<h2>These may include:</h2>",
+                "<ul>",
+                    "<li>A diagram of what is accomplished vs todo</li>",
+                    "<li>A set of Diagrams of the code structure</li>",
+                    "<li>A plan of what is still to be built</li>",
+                "</ul>",
+                "<p></p>",
+                "<p>The power of Diagrams is meaning condensed to simple pictures. Visual language is a great way for new people to come on board and quickly get to grips with the project. They are also incredible at reporting progress.</p>",
+                "<p>Architectural drawings can also be a specification that developers can take away and build</p>",
+                "<p></p>"
+            ]
+        },
+        {
+            "sn": 3,
+            "tab": "samples",
+            "title": "Examples",
+            "text": [
+                "<p>",
+                    "<img src='class_diagram.png'>",
+                    "<b>Class Diagram</b>",
+                "</p>",
+                "<a href='class_diagram.png'>Process Diagram</a>",
+                "<a href='class_diagram.png'>Work Plan</a>"
+            ]
+        }
+    ]
+}
